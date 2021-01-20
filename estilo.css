@@ -1,0 +1,99 @@
+ body{
+ text-align: center;
+ font-family: candara;
+ background-color: #f5fffa;
+ margin-top: -58px;
+ margin-left: -10px;
+ }
+
+ header{
+ text-align: center;
+ background-image: url('topo.jpg');
+ background-repeat : repeat-y;
+ width: 1500px;
+ height: 500px;
+ filter: grayscale(80%);
+ transition: 20s;
+ }
+
+ h1{
+ font-size: 550%;
+ padding-top: 200px;
+ }
+
+ h2{
+ font-size: 250%;
+ }
+
+ header:hover{
+ filter: grayscale(0%);
+ transition: 1s;
+ }
+
+ .sub-texto{
+ font-size: 190%;
+ text-shadow: 5px 5px 5px #e0ffff;
+ padding-top: 100px;
+ margin-left: -200px;
+ }
+
+ .div-geral{
+ height: 100%;
+ margin-left: -90px;
+ margin-top: 20px;
+ }
+
+ .topico1{
+ text-align: center;
+ width: 250px;
+ height: 350px;
+ margin-left: 100px;
+ display: inline-block;
+ background-color: #c0c0c0;
+ background-image: url('icon2.jpg');
+ border-radius: 20px;
+ filter: grayscale(50%);
+ transition: 1s;
+ }
+
+ .topico1:hover{
+ filter: grayscale(0%);
+ transition: 1s;
+ }
+
+ .topico2{
+ text-align: center;
+ width: 250px;
+ height: 350px;
+ margin-left: 100px;
+ display: inline-block;
+ background-color: #c0c0c0;
+ background-image: url('icon1.jpg');
+ border-radius: 20px;
+ filter: grayscale(50%);
+ transition: 1s;
+ }
+
+ .topico2:hover{
+ filter: grayscale(0%);
+ transition: 1s;
+ }
+
+ .topico3{
+ text-align: center;
+ width: 250px;
+ height: 350px;
+ margin-left: 100px;
+ display: inline-block;
+ background-color: #c0c0c0;
+ background-image: url('icon3.jpg');
+ border-radius: 20px;
+ filter: grayscale(50%);
+ transition: 3s;
+ }
+
+ .topico3:hover{
+
+ filter: grayscale(0%);
+ transition: 1s;
+ }
